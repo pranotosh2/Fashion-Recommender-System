@@ -25,19 +25,21 @@ Permanent feature storage (.npy, .pkl)
 
 No training required (uses pretrained CNN)
 
-## Images Dataset
-     ↓
-ResNet50 (Feature Extraction)
-     ↓
-Feature Vectors (2048-d)
-     ↓
-Saved as embeddings.npy
-     ↓
-Similarity Search (KNN / FAISS)
-     ↓
-Recommended Images ##
+## 🧠 Workflow
 
-python feature_extract.py
+Images Dataset  
+↓  
+ResNet50 Feature Extraction  
+↓  
+2048-D Feature Vectors  
+↓  
+embeddings.npy + filenames.pkl  
+↓  
+KNN / FAISS Similarity Search  
+↓  
+Recommended Images 
+
+## python feature_extraction.py
 This will create:
 
 embeddings.npy → shape (N, 2048)
@@ -45,7 +47,7 @@ embeddings.npy → shape (N, 2048)
 filenames.pkl → image paths
 
 # KNN Version
-streamlit run knn.py
+## streamlit run knn.py
 
 # FAISS Version
-streamlit run app.py
+## streamlit run app.py
