@@ -1,8 +1,6 @@
 # Fashion-Recommender-System
 Deep Learning Image Based Fashion Recommendations 
 
-🖼️ Image-Based Recommendation System
-
 (KNN & FAISS – Feature Similarity Search)
 
 This project implements a simple image-based recommendation system using deep learning feature extraction and similarity search.
