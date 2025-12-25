@@ -25,7 +25,7 @@ Permanent feature storage (.npy, .pkl)
 
 No training required (uses pretrained CNN)
 
-Images Dataset
+## Images Dataset
      ↓
 ResNet50 (Feature Extraction)
      ↓
@@ -35,8 +35,7 @@ Saved as embeddings.npy
      ↓
 Similarity Search (KNN / FAISS)
      ↓
-Recommended Images
-
+Recommended Images ##
 
 python feature_extract.py
 This will create:
