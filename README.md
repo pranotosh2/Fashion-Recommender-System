@@ -7,7 +7,7 @@ This project implements a simple image-based recommendation system using deep le
 
 Users upload an image, and the system recommends visually similar images from a dataset.
 
-🚀 Features
+# 🚀 Features
 
 Deep feature extraction using ResNet50
 
@@ -24,7 +24,7 @@ Permanent feature storage (.npy, .pkl)
 No training required (uses pretrained CNN)
 
 ## 🧠 Workflow
-
+```
 Images Dataset  
 ↓  
 ResNet50 Feature Extraction  
@@ -36,7 +36,7 @@ embeddings.npy + filenames.pkl
 KNN / FAISS Similarity Search  
 ↓  
 Recommended Images 
-
+```
 ## python feature_extraction.py
 This will create:
 
