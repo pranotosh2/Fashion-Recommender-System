@@ -6,7 +6,7 @@ Deep Learning Image Based Fashion Recommendations
 * This project implements a simple image-based recommendation system using deep learning feature extraction and similarity search.
 
 * Users upload an image, and the system recommends visually similar images from a dataset.
-* Image folder link: [Image Linkn](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
+* Image folder link: [Image Link](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 
 # 🚀 Features
 
