@@ -41,12 +41,16 @@ Recommended Images
 ## python feature_extraction.py
 This will create:
 
-embeddings.npy → shape (N, 2048)
+* embeddings.npy → shape (N, 2048)
 
-filenames.pkl → image paths
+* filenames.pkl → image paths
 
 # KNN Version
-## streamlit run knn.py
+```
+streamlit run knn.py
+```
 
 # FAISS Version
-## streamlit run app.py
+```
+streamlit run app.py
+```
