@@ -47,7 +47,7 @@ This will generate:
 * embeddings.npy → shape (N, 2048)
 
 * filenames.pkl → image paths
-* 
+  
 # KNN Version
 ```
 streamlit run knn.py
