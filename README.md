@@ -36,10 +36,11 @@ embeddings.npy + filenames.pkl
 ↓  
 KNN / FAISS Similarity Search  
 ↓  
-Recommended Images 
+Recommended Images
 ```
-## python feature_extraction.py
-This will create:
+RUN: python feature_extraction.py
+```
+This will generate:
 
 * embeddings.npy → shape (N, 2048)
 
